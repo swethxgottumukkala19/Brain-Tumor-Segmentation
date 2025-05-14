@@ -12,12 +12,12 @@ contrast of tumor tissue.
 4. FLAIR (Fluid Attenuated Inversion Recovery): Visualizes the presence of edema
 and helps in identifying tumor boundaries.
 The BraTS 2020 dataset also includes manual segmentations of four main tumor sub-regions:
- Enhancing Tumor (ET): Enhancing section of the tumor indicating active growth.
- Tumor Core (TC): This is the area consisting of the enhancing tumor and its necrotic
+A. Enhancing Tumor (ET): Enhancing section of the tumor indicating active growth.
+B. Tumor Core (TC): This is the area consisting of the enhancing tumor and its necrotic
 components, leaving behind any edema.
- Whole Tumor (WT): The entire extent of the tumor itself, enhancing and nonenhancing
+C. Whole Tumor (WT): The entire extent of the tumor itself, enhancing and nonenhancing
 regions, as well as edema.
- Edema: The visible swelling around the tumor, often found in FLAIR imaging mode.
+D. Edema: The visible swelling around the tumor, often found in FLAIR imaging mode.
 The dataset includes 369 training samples with ground truth annotations for these tumor
 regions. This dataset has become a benchmark for evaluating segmentation methods in the field
 of medical image analysis, particularly for glioma segmentation.
@@ -25,3 +25,7 @@ This multimodal and annotated dataset allows for the development of deep learnin
 models that can handle complex segmentation tasks, improving tumor diagnosis and treatment
 planning. The various MRI sequences provide complementary information, enabling
 comprehensive tumor characterization and segmentation.
+
+## Our Proposed Methodlogy
+![image](https://github.com/user-attachments/assets/01538cf9-ccf3-4e81-ad9b-94d7a85816d2)
+
